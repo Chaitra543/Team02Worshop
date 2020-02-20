@@ -4,21 +4,21 @@
 ## Topic: Practice with PIG
 ------------------------------------------------------------------------------------------------------------------
 
-## Respository links
+## Respository links:
 -  [Github page](https://github.com/Nishanthreddy1997/Team02Worshop/  "Source")
 
-## Recommended tools
+## Recommended tools:
 -  Cloudera Distribution HADOOP
 
-## References
+## References:
 - slideshare : [https://www.slideshare.net/Simplilearn/pig-149037598/Simplilearn/pig-149037598](https://www.slideshare.net/Simplilearn/pig-149037598/Simplilearn/pig-149037598) 
 - PIG Tutorial : [https://www.tutorialspoint.com/apache_pig/](https://www.tutorialspoint.com/apache_pig/)
 
-## contributors
+## contributors:
 - Nishanth Reddy Devi Reddy
 - Saikiran Doddapaneni
 - Yeshwanth Reddy Anumula
-## code
+## code:
 ```
  A = load 'Football_input.csv' using PigStorage(',') as (id:chararray,name:chararray,age:int,national:chararray);
 b= foreach A generate id,name,age,national;
